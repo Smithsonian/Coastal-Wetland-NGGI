@@ -22,60 +22,6 @@ library(DT)
 # reported_natural <- reported_all %>% filter(management == "natural") %>% filter(habitat != "mudflat")
 ```
 
-## Methods
-
-Error was not propagated for rates that represent site-level averages (of 2 or more cores)
-meaning the SE provided was treated as a single unaveraged value
-standardize to depth
-
-1. Add old (Meng's) and new synthesis (lit review Henry and Rose did early on) to the same folder. Enforce consistent study, site and core IDs which match library.
-
-2. Calculate carbon stocks or organic matter stocks from Coastal Carbon Library. Make sure to do both 1m for all, as well as specified depth increments for the subset of cores where we only have accretion rates from lit review datasets. If there is a 137Cs date from 0 to 25 cm, calculate mean stock for 0 to 25 cm, if 210Pb from 0 to 100 cm, same thing.
-
-3. Normalize units. Organic matter accumulation should be gOM per m2 per year, carbon accumulation gC per m2 per year, and accretion rate rate units (centimeters per year). Calculate organic matter or carbon accumulation rate when only accretion and carbon stocks are present.
-
-4. Provide a master conversion to organic carbon from organic matter when organic carbon is missing.
-
-Mangrove: OC = 0.486 OM - 0.0160 OM^2
-Marsh: OC = 0.427 OM + 0.0635 OM^2
-
-5. Move the workflow over to special features in R. Find a file of Koppen climate zones and assign consistent classification of climate, same with state boarders.
-
-6. Summarize carbon accumulation rate, and stocks by climate zones. Means, medians, geometric means, s.d., n, s.e., minimum, maximum, upper and lower 95% distribution.
-
-6b. Probably want to do the same for states too.
-
-Additional Notes:
-
-In the case where there's only accretion rate. 
-
-LOI or fraction carbon * dry bulk density 
-Scrub shrub and swamp - use mangrove relationship 
-
-If only a min/max range was reported, we need separate columns
-
-Multiply the carbon stock with the accretion rate (associated interval)
-
-
-Cases where we have accretion rates (ex. Cm/yr)
-Extract LOI and fraction carbon 
-For organic matter 
-Drexler rates and depths need to be in long form
-
-
-Accretion x stock => unit conversions => Calculate the depth weighted average for multiple depth increments
-New col for weight (proportion of the core that, sum of each value times its weight)
-
-Final cleaning
-Pivot longer
-Querying of carbon database (
-Accretion rate
-Unit conversions
-Bind to Meng
-
-
-## Findings
-
 
 
 ## Accumulation Rates Overview

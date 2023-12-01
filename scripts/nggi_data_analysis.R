@@ -366,7 +366,7 @@ nggi_smry <- reported_all %>%
 
 ## Data Visualization ####
 
-rmarkdown::render(input = "scripts/nggi_2022_datavis.Rmd",
+rmarkdown::render(input = "scripts/NGGI_2022_report.Rmd",
                   output_dir = "report")
 
 
