@@ -1,0 +1,436 @@
+study_id,site_id,core_id,core_count,habitat,management,accumulation_type,carbon_stock,carbon_stock_unit,depth_min_cm,depth_max_cm,pb210_rate,pb210_rate_se,pb210_rate_cic,pb210_rate_cic_se,pb210_rate_unit,cs137_rate,cs137_rate_se,cs137_rate_unit,marker_rate,marker_rate_se,marker_rate_unit,radiocarbon_rate,radiocarbon_rate_se,radiocarbon_rate_unit,SET_rate,SET_rate_se,SET_rate_unit,reported_rates,notes,publication_table
+Abbott_et_al_2019,Sabine_NWR_5,,6,marsh,restored,organic carbon,,,0,30,,,,,,,,,47,12,gramsPerSquareMeterPerYear,,,,,,,"short term and long term rates presented for accretion, OM accumulation, mineral accumulation, and OC accumulation",marker type dredge horizon; recording long-term rates for OC; max depth of corer was 35cm,
+Abbott_et_al_2019,Sabine_NWR_8,,6,marsh,restored,organic carbon,,,0,30,,,,,,,,,64,12,gramsPerSquareMeterPerYear,,,,,,,,,
+Abbott_et_al_2019,Sabine_NWR_13,,6,marsh,restored,organic carbon,,,0,30,,,,,,,,,73,5,gramsPerSquareMeterPerYear,,,,,,,,,
+Abbott_et_al_2019,Sabine_NWR_20,,6,marsh,restored,organic carbon,,,0,30,,,,,,,,,50,6,gramsPerSquareMeterPerYear,,,,,,,,,
+Abbott_et_al_2019,Sabine_NWR_32,,6,marsh,restored,organic carbon,,,0,30,,,,,,,,,62,7,gramsPerSquareMeterPerYear,,,,,,,,,
+Abbott_et_al_2019,Sabine_NWR_Natural,,12,marsh,natural,organic carbon,,,0,30,,,,,,,,,108,12,gramsPerSquareMeterPerYear,,,,,,,,,
+Allen_et_al_2022,Nanticoke_1,1A,1,marsh,natural,sediment accretion,,,0,100,0.3772,,,,centimeterPerYear,,,,,,,,,,,,,"results include accretion, inorganic and organic accumulation rates",,2
+Allen_et_al_2022,Nanticoke_1,1B,1,marsh,natural,sediment accretion,,,0,100,1.0611,,,,centimeterPerYear,,,,,,,,,,,,,,,2
+Allen_et_al_2022,Nanticoke_1,1C,1,marsh,natural,sediment accretion,,,0,100,0.3045,,,,centimeterPerYear,,,,,,,,,,,,,,,2
+Allen_et_al_2022,Nanticoke_2,2A,1,marsh,natural,sediment accretion,,,0,100,0.5674,,,,centimeterPerYear,,,,,,,,,,,,,,,2
+Allen_et_al_2022,Nanticoke_2,2B,1,marsh,natural,sediment accretion,,,0,100,0.6537,,,,centimeterPerYear,,,,,,,,,,,,,,,2
+Allen_et_al_2022,Nanticoke_2,2C,1,marsh,natural,sediment accretion,,,0,100,0.2397,,,,centimeterPerYear,,,,,,,,,,,,,,,2
+Allen_et_al_2022,Nanticoke_3,3A,1,marsh,natural,sediment accretion,,,0,100,0.2833,,,,centimeterPerYear,,,,,,,,,,,,,,,2
+Allen_et_al_2022,Nanticoke_3,3B,1,marsh,natural,sediment accretion,,,0,100,0.2133,,,,centimeterPerYear,,,,,,,,,,,,,,,2
+Allen_et_al_2022,Nanticoke_3,3C,1,marsh,natural,sediment accretion,,,0,100,0.224,,,,centimeterPerYear,,,,,,,,,,,,,,,2
+Allen_et_al_2022,Nanticoke_4,4A,1,marsh,natural,sediment accretion,,,0,100,0.2259,,,,centimeterPerYear,,,,,,,,,,,,,,,2
+Allen_et_al_2022,Nanticoke_4,4B,1,marsh,natural,sediment accretion,,,0,100,0.2781,,,,centimeterPerYear,,,,,,,,,,,,,,,2
+Allen_et_al_2022,Nanticoke_4,4C,1,marsh,natural,sediment accretion,,,0,100,0.4415,,,,centimeterPerYear,,,,,,,,,,,,,,,2
+Allen_et_al_2022,Nanticoke_5,5A,1,marsh,natural,sediment accretion,,,0,100,1.0252,,,,centimeterPerYear,,,,,,,,,,,,,,,2
+Allen_et_al_2022,Nanticoke_5,5B,1,marsh,natural,sediment accretion,,,0,100,0.4445,,,,centimeterPerYear,,,,,,,,,,,,,,,2
+Allen_et_al_2022,Nanticoke_5,5C,1,marsh,natural,sediment accretion,,,0,100,0.4081,,,,centimeterPerYear,,,,,,,,,,,,,,,2
+Carlin_et_al_2021,US-EDN,Mudflat,1,marsh ,restored,organic carbon,,,NA,NA,51,12,,,gramsPerSquareCentimeterPerYear,,,,,,,,,,,,,"results for mass acummulation rate, soil accretion, and carbon accumulation rate",Same paper as Arias-Ortiz et al 2021,
+Carlin_et_al_2021,US-EDN,Spartina,1,marsh ,restored,organic carbon,,,NA,NA,85,16,,,gramsPerSquareCentimeterPerYear,,,,,,,,,,,,,,Same paper as Arias-Ortiz et al 2021,
+Carlin_et_al_2021,US-EDN,Pickleweed,1,marsh ,restored,organic carbon,,,NA,NA,73,17,,,gramsPerSquareCentimeterPerYear,,,,,,,,,,,,,,Same paper as Arias-Ortiz et al 2021,
+Arias-Ortiz_et_al_2021,US-Myb,TyphaM1,1,marsh ,restored,organic carbon,,,0,68,220,40,,,gramsPerSquareCentimeterPerYear,,,,,,,,,,,,,,,
+Arias-Ortiz_et_al_2021,US-Myb,Phragmites,1,marsh ,restored,organic carbon,,,0,79,375,70,,,gramsPerSquareCentimeterPerYear,,,,,,,,,,,,,,,
+Arias-Ortiz_et_al_2021,US-Myb,TyphaM2,1,marsh ,restored,organic carbon,,,0,78,240,25,,,gramsPerSquareCentimeterPerYear,,,,,,,,,,,,,,,
+Arias-Ortiz_et_al_2021,US-Tw1,TyphaW1,1,marsh ,restored,organic carbon,,,0,81,460,140,,,gramsPerSquareCentimeterPerYear,,,,,,,,,,,,,,,
+Arias-Ortiz_et_al_2021,US-Tw1,TyphaW2,1,marsh ,restored,organic carbon,,,0,61,370,120,,,gramsPerSquareCentimeterPerYear,,,,,,,,,,,,,,,
+Arias-Ortiz_et_al_2021,US-Tw1,TyphaW3,1,marsh ,restored,organic carbon,,,0,81,210,100,,,gramsPerSquareCentimeterPerYear,,,,,,,,,,,,,,,
+Arriola_and_Cable_2017,Mouth,,1,marsh ,natural,organic carbon,,,,,109.5,36,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,"vertical accretion, mass accumulation rate, carbon burial rate, total carbon accumulated ",,
+Arriola_and_Cable_2017,MC,,1,marsh ,natural,organic carbon,,,,,95.7,51.4,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Arriola_and_Cable_2017,HE,,1,marsh ,natural,organic carbon,,,,,NA,,,,,,,,,,,,,,,,,,,
+Arriola_and_Cable_2017,HI,,1,marsh ,natural,organic carbon,,,,,NA,,,,,,,,,,,,,,,,,,,
+Arriola_and_Cable_2017,Upstream,,1,marsh ,natural,organic carbon,,,,,49.5,24.8,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Arriola_and_Cable_2017,Forest,,1,marsh ,natural,organic carbon,,,,,65.2,28.6,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS175,CRMS175,1,marsh ,natural,total carbon,,,,,248.9,,,,gramsPerSquareMeterPerYear,180.4,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS0211,CRMS0211,1,marsh,natural,total carbon,,,,,NA,,,,gramsPerSquareMeterPerYear,NA,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS0224,CRMS0224,1,marsh,natural,total carbon,,,,,190.7,,,,gramsPerSquareMeterPerYear,217.2,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS0225,CRMS0225,1,marsh,natural,total carbon,,,,,185.3,,,,gramsPerSquareMeterPerYear,503,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS0237,CRMS0237,1,marsh,natural,total carbon,,,,,NA,,,,gramsPerSquareMeterPerYear,NA,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS0253,CRMS0253,1,marsh,natural,total carbon,,,,,349.6,,,,gramsPerSquareMeterPerYear,417.7,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS0273,CRMS0273,1,marsh,natural,total carbon,,,,,NA,,,,gramsPerSquareMeterPerYear,NA,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS0305,CRMS0305,1,marsh,natural,total carbon,,,,,153.1,,,,gramsPerSquareMeterPerYear,NA,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS0309,CRMS0309,1,marsh,natural,total carbon,,,,,356.8,,,,gramsPerSquareMeterPerYear,176.2,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS0327,CRMS0327,1,marsh,natural,total carbon,,,,,NA,,,,gramsPerSquareMeterPerYear,NA,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS0331,CRMS0331,1,marsh,natural,total carbon,,,,,NA,,,,gramsPerSquareMeterPerYear,NA,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS0337,CRMS0337,1,marsh,natural,total carbon,,,,,208.5,,,,gramsPerSquareMeterPerYear,276.5,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS0367,CRMS0367,1,marsh,natural,total carbon,,,,,NA,,,,gramsPerSquareMeterPerYear,NA,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS0377,CRMS0377,1,marsh,natural,total carbon,,,,,61.5,,,,gramsPerSquareMeterPerYear,136.7,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS0398,CRMS0398,1,marsh,natural,total carbon,,,,,431.1,,,,gramsPerSquareMeterPerYear,485,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS0399,CRMS0399,1,marsh,natural,total carbon,,,,,396.4,,,,gramsPerSquareMeterPerYear,383.7,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS2825,CRMS2825,1,marsh,natural,total carbon,,,,,NA,,,,gramsPerSquareMeterPerYear,NA,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS3166,CRMS3166,1,marsh,natural,total carbon,,,,,399,,,,gramsPerSquareMeterPerYear,997.6,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS3565,CRMS3565,1,marsh,natural,total carbon,,,,,402,,,,gramsPerSquareMeterPerYear,332.1,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS3617,CRMS3617,1,marsh,natural,total carbon,,,,,374.4,,,,gramsPerSquareMeterPerYear,295.2,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS4045,CRMS4045,1,marsh,natural,total carbon,,,,,298.1,,,,gramsPerSquareMeterPerYear,453.1,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS4245,CRMS4245,1,marsh,natural,total carbon,,,,,638.1,,,,gramsPerSquareMeterPerYear,903.6,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,CRMS4455,CRMS4455,1,marsh,natural,total carbon,,,,,343.7,,,,gramsPerSquareMeterPerYear,348.1,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Baustian_et_al_2021,BA-01-04,BA-01-04,1,marsh,natural,total carbon,,,,,NA,,,,gramsPerSquareMeterPerYear,NA,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Boyd_2012,BBRC,BBRC1,1,marsh ,natural,sediment accretion,,,,,0.6,,,,centimeterPerYear,0.29,,centimeterPerYear,,,,,,,,,,"data available for accretion, mineral accumulation, organic accumulation rate ",,1
+Boyd_2012,BBRC,BBRC2,1,marsh ,natural,sediment accretion,,,,,0.72,,,,centimeterPerYear,0.2,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,LC,LC1,1,marsh ,impounded,sediment accretion,,,,,0.48,,,,centimeterPerYear,,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,LC,LC2,1,marsh ,impounded,sediment accretion,,,,,0.32,,,,centimeterPerYear,0.28,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,LC,LC3,1,marsh ,impounded,sediment accretion,,,,,0.29,,,,centimeterPerYear,,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,MH,MH1,1,marsh ,impounded,sediment accretion,,,,,0.32,,,,centimeterPerYear,,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,MH,MH2,1,marsh ,impounded,sediment accretion,,,,,0.19,,,,centimeterPerYear,,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,MH,MH3,1,marsh ,impounded,sediment accretion,,,,,0.18,,,,centimeterPerYear,0.11,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,NCBD,NCBD1,1,marsh ,impounded,sediment accretion,,,,,0.22,,,,centimeterPerYear,0.28,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,NCBD,NCBD2,1,marsh ,impounded,sediment accretion,,,,,0.23,,,,centimeterPerYear,0.54,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,NCBD,NCBD3,1,marsh ,impounded,sediment accretion,,,,,0.24,,,,centimeterPerYear,0.37,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,NCBW,NCBW1,1,marsh ,impounded,sediment accretion,,,,,0.26,,,,centimeterPerYear,0.28,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,NCBW,NCBW2,1,marsh ,impounded,sediment accretion,,,,,,,,,centimeterPerYear,,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,NCBW,NCBW3,1,marsh ,impounded,sediment accretion,,,,,,,,,centimeterPerYear,0.28,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,NCGB,NCGB1,1,marsh ,impounded,sediment accretion,,,,,0.87,,,,centimeterPerYear,0.72,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,NCGB,NCGB2,1,marsh ,impounded,sediment accretion,,,,,,,,,centimeterPerYear,0.2,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,NCGB,NCGB3,1,marsh ,impounded,sediment accretion,,,,,0.44,,,,centimeterPerYear,,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,NCLM,NCLM1,1,marsh ,natural,sediment accretion,,,,,0.36,,,,centimeterPerYear,0.72,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,NCLM,NCLM2,1,marsh ,natural,sediment accretion,,,,,0.53,,,,centimeterPerYear,0.8,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,NCLM,NCLM3,1,marsh ,natural,sediment accretion,,,,,0.49,,,,centimeterPerYear,0.72,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,NCRE,NCRE1,1,marsh ,natural,sediment accretion,,,,,0.73,,,,centimeterPerYear,1.07,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,NCRE,NCRE2,1,marsh ,natural,sediment accretion,,,,,0.42,,,,centimeterPerYear,0.8,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,NCRE,NCRE3,1,marsh ,natural,sediment accretion,,,,,0.28,,,,centimeterPerYear,0.72,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,PK,PK1,1,marsh ,natural,sediment accretion,,,,,0.35,,,,centimeterPerYear,0.45,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,PK,PK2,1,marsh ,natural,sediment accretion,,,,,0.97,,,,centimeterPerYear,1.04,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,PK,PK3,1,marsh ,natural,sediment accretion,,,,,0.48,,,,centimeterPerYear,0.74,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,PM,PM1,1,marsh ,natural,sediment accretion,,,,,0.45,,,,centimeterPerYear,0.47,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,PM,PM2,1,marsh ,natural,sediment accretion,,,,,0.26,,,,centimeterPerYear,0.29,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,PM,PM7,1,marsh ,natural,sediment accretion,,,,,0.44,,,,centimeterPerYear,0.54,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,PM,PM3,1,marsh ,impounded,sediment accretion,,,,,,,,,centimeterPerYear,0.11,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,PM,PM4,1,marsh ,impounded,sediment accretion,,,,,,,,,centimeterPerYear,0.11,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,PM,PM8,1,marsh ,impounded,sediment accretion,,,,,0.1,,,,centimeterPerYear,0.11,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,PM,PM5,1,marsh ,impounded,sediment accretion,,,,,0.12,,,,centimeterPerYear,0.2,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,PM,PM6,1,marsh ,impounded,sediment accretion,,,,,0.42,,,,centimeterPerYear,,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,PM,PM9,1,marsh ,impounded,sediment accretion,,,,,0.31,,,,centimeterPerYear,0.19,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,PM,PM10,1,marsh ,natural,sediment accretion,,,,,0.52,,,,centimeterPerYear,0.36,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,PM,PM11,1,marsh ,natural,sediment accretion,,,,,0.33,,,,centimeterPerYear,0.28,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,PM,PM12,1,marsh ,natural,sediment accretion,,,,,,,,,centimeterPerYear,0.23,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,TH,TH1,1,marsh ,impounded,sediment accretion,,,,,,,,,centimeterPerYear,0.19,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,TH,TH2,1,marsh ,impounded,sediment accretion,,,,,0.27,,,,centimeterPerYear,0.15,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,TH,TH3,1,marsh ,impounded,sediment accretion,,,,,0.21,,,,centimeterPerYear,0.28,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,TH,TH4,1,marsh ,impounded,sediment accretion,,,,,0.2,,,,centimeterPerYear,0.19,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,TH,TH5,1,marsh ,impounded,sediment accretion,,,,,0.39,,,,centimeterPerYear,0.36,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_2012,TH,TH6,1,marsh ,impounded,sediment accretion,,,,,0.2,,,,centimeterPerYear,0.11,,centimeterPerYear,,,,,,,,,,,,1
+Boyd_and_Sommerfield_2016,Unit1,1a,1,marsh,disturbed,sediment accretion,,,,,0.3,,,,centimeterPerYear,0.29,,centimeterPerYear,,,,,,,,,,"accretion available for Pb, accretion, organic matter accumulation, and mineral sediment accumulation rate available for Cs ",,2
+Boyd_and_Sommerfield_2016,Unit1,1b,1,marsh,disturbed,sediment accretion,,,,,0.48,,,,centimeterPerYear,0.54,,centimeterPerYear,,,,,,,,,,,,2
+Boyd_and_Sommerfield_2016,Unit1,1c,1,marsh,disturbed,sediment accretion,,,,,0.49,,,,centimeterPerYear,0.47,,centimeterPerYear,,,,,,,,,,,,2
+Boyd_and_Sommerfield_2016,UnitII,2a,1,marsh,disturbed,sediment accretion,,,,,0.13,,,,centimeterPerYear,0.11,,centimeterPerYear,,,,,,,,,,,,2
+Boyd_and_Sommerfield_2016,UnitII,2b,1,marsh,disturbed,sediment accretion,,,,,0.15,,,,centimeterPerYear,0.11,,centimeterPerYear,,,,,,,,,,,,2
+Boyd_and_Sommerfield_2016,UnitII,2c,1,marsh,disturbed,sediment accretion,,,,,0.12,,,,centimeterPerYear,0.11,,centimeterPerYear,,,,,,,,,,,,2
+Boyd_and_Sommerfield_2016,UnitIII,3a,1,marsh,disturbed,sediment accretion,,,,,0.21,,,,centimeterPerYear,0.19,,centimeterPerYear,,,,,,,,,,,,2
+Boyd_and_Sommerfield_2016,UnitIII,3b,1,marsh,disturbed,sediment accretion,,,,,0.32,,,,centimeterPerYear,0.37,,centimeterPerYear,,,,,,,,,,,,2
+Boyd_and_Sommerfield_2016,UnitIII,3c,1,marsh,disturbed,sediment accretion,,,,,0.26,,,,centimeterPerYear,0.2,,centimeterPerYear,,,,,,,,,,,,2
+Boyd_and_Sommerfield_2016,UnitIV,4a,1,marsh,disturbed,sediment accretion,,,,,0.33,,,,centimeterPerYear,0.43,,centimeterPerYear,,,,,,,,,,,,2
+Boyd_and_Sommerfield_2016,UnitIV,4b,1,marsh,disturbed,sediment accretion,,,,,0.31,,,,centimeterPerYear,0.36,,centimeterPerYear,,,,,,,,,,,,2
+Boyd_and_Sommerfield_2016,UnitIV,4c,1,marsh,disturbed,sediment accretion,,,,,0.26,,,,centimeterPerYear,0.23,,centimeterPerYear,,,,,,,,,,,,2
+Boyd_et_al_2017,Dennis_Creek,DN1,1,marsh,natural,sediment accretion,,,,,0.41,,,,centimeterPerYear,0.44,,centimeterPerYear,,,,,,,,,,"data available for accretion rate, mineral sediment accumulation, organic mass accumulation",,3
+Boyd_et_al_2017,Dennis_Creek,DN2,1,marsh,natural,sediment accretion,,,,,0.66,,,,centimeterPerYear,0.77,,centimeterPerYear,,,,,,,,,,,,3
+Boyd_et_al_2017,Dennis_Creek,DN3,1,marsh,natural,sediment accretion,,,,,1.19,,,,centimeterPerYear,0.77,,centimeterPerYear,,,,,,,,,,,,3
+Boyd_et_al_2017,Dividing Creek,DV1,1,marsh,natural,sediment accretion,,,,,0.68,,,,centimeterPerYear,0.44,,centimeterPerYear,,,,,,,,,,,,3
+Boyd_et_al_2017,Dividing Creek,DV2,1,marsh,natural,sediment accretion,,,,,,,,,,0.81,,centimeterPerYear,,,,,,,,,,,,3
+Boyd_et_al_2017,Dividing Creek,DV3,1,marsh,natural,sediment accretion,,,,,0.28,,,,centimeterPerYear,0.35,,centimeterPerYear,,,,,,,,,,,,3
+Boyd_et_al_2017,Maurice River,MR1,1,marsh,natural,sediment accretion,,,,,1.06,,,,centimeterPerYear,0.94,,centimeterPerYear,,,,,,,,,,,,3
+Boyd_et_al_2017,Maurice River,MR2,1,marsh,natural,sediment accretion,,,,,1.03,,,,centimeterPerYear,1.06,,centimeterPerYear,,,,,,,,,,,,3
+Boyd_et_al_2017,Maurice River,MR3,1,marsh,natural,sediment accretion,,,,,1.52,,,,centimeterPerYear,,,,,,,,,,,,,,,3
+Boyd_et_al_2017,Channel Creek,CC1,1,marsh,natural,sediment accretion,,,,,0.31,,,,centimeterPerYear,0.31,,centimeterPerYear,,,,,,,,,,,,3
+Boyd_et_al_2017,Channel Creek,CC2,1,marsh,natural,sediment accretion,,,,,0.42,,,,centimeterPerYear,0.35,,centimeterPerYear,,,,,,,,,,,,3
+Boyd_et_al_2017,Channel Creek,CC3,1,marsh,natural,sediment accretion,,,,,0.4,,,,centimeterPerYear,0.35,,centimeterPerYear,,,,,,,,,,,,3
+Boyd_et_al_2017,Island Beach,IB1,1,marsh,natural,sediment accretion,,,,,0.3,,,,centimeterPerYear,0.31,,centimeterPerYear,,,,,,,,,,,,3
+Boyd_et_al_2017,Island Beach,IB2,1,marsh,natural,sediment accretion,,,,,0.29,,,,centimeterPerYear,0.27,,centimeterPerYear,,,,,,,,,,,,3
+Boyd_et_al_2017,Island Beach,IB3,1,marsh,natural,sediment accretion,,,,,0.27,,,,centimeterPerYear,0.23,,centimeterPerYear,,,,,,,,,,,,3
+Boyd_et_al_2017,Reedy Creek,RC1,1,marsh,natural,sediment accretion,,,,,0.28,,,,centimeterPerYear,0.23,,centimeterPerYear,,,,,,,,,,,,3
+Boyd_et_al_2017,Reedy Creek,RC2,1,marsh,natural,sediment accretion,,,,,0.23,,,,centimeterPerYear,0.19,,centimeterPerYear,,,,,,,,,,,,3
+Boyd_et_al_2017,Reedy Creek,RC3,1,marsh,natural,sediment accretion,,,,,0.17,,,,centimeterPerYear,0.27,,centimeterPerYear,,,,,,,,,,,,3
+Breithaupt_et_al_2014,WSC-5,,6,mangrove ,natural,organic carbon,,,0,40,176,31,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,"data available for accretion, organic matter accumulation, organic carbon accumulation, inorganic matter accumulation rate",accumulation rate provides SD not SE; max depth ranges from 27-40,
+Callaway_et_al_2019,WT_low,WT_low_A,1,marsh ,natural,total carbon,,,0,52,NA,,,,,160.8,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,WT_low,WT_low_B,1,marsh ,natural,total carbon,,,0,52,NA,,,,,132.6,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,WT_mid,WT_mid_A,1,marsh ,natural,total carbon,,,0,50,NA,,,,,117.9,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,WT_high,WT_high_A,1,marsh ,natural,total carbon,,,0,52,NA,,,,,102.5,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,CC_low,CC_low_A,1,marsh ,natural,total carbon,,,0,54,113.8,,,,gramsPerSquareMeterPerYear,186.2,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,CC_low,CC_low_B,1,marsh ,natural,total carbon,,,0,50,77.9,,,,gramsPerSquareMeterPerYear,97.5,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,CC_mid,CC_mid_A,1,marsh ,natural,total carbon,,,0,52,65.8,,,,gramsPerSquareMeterPerYear,72.9,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,CC_mid,CC_mid_B,1,marsh ,natural,total carbon,,,0,50,78.2,,,,gramsPerSquareMeterPerYear,86.7,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,CC_high,CC_high_A,1,marsh ,natural,total carbon,,,0,50,126.7,,,,gramsPerSquareMeterPerYear,92,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,CC_high,CC_high_B,1,marsh ,natural,total carbon,,,0,50,54.9,,,,gramsPerSquareMeterPerYear,82.1,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,PRM_low,PRM_low_A,1,marsh ,natural,total carbon,,,0,48,57.1,,,,gramsPerSquareMeterPerYear,87.7,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,PRM_mid,PRM_mid_A,1,marsh ,natural,total carbon,,,0,50,49.7,,,,gramsPerSquareMeterPerYear,53.5,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,PRM_mid,PRM_mid_B,1,marsh ,natural,total carbon,,,0,50,65.4,,,,gramsPerSquareMeterPerYear,78.8,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,PRM_high,PRM_high_A,1,marsh ,natural,total carbon,,,0,50,48,,,,gramsPerSquareMeterPerYear,53.5,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,PRM_high,PRM_high_B,1,marsh ,natural,total carbon,,,0,52,NA,,,,,63.8,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,CI_low,CI_low_A,1,marsh ,natural,total carbon,,,0,50,73.4,,,,gramsPerSquareMeterPerYear,142.6,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,CI_low,CI_low_D,1,marsh ,natural,total carbon,,,0,50,149,,,,gramsPerSquareMeterPerYear,232.4,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,CI_mid,CI_mid_A,1,marsh ,natural,total carbon,,,0,50,43.2,,,,gramsPerSquareMeterPerYear,68.2,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,CI_mid,CI_mid_B,1,marsh ,natural,total carbon,,,0,50,30.9,,,,gramsPerSquareMeterPerYear,41.7,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,CI_mid,CI_mid_C,1,marsh ,natural,total carbon,,,0,50,47.1,,,,gramsPerSquareMeterPerYear,47,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,CI_high,CI_high_A,1,marsh ,natural,total carbon,,,0,50,70.2,,,,gramsPerSquareMeterPerYear,72.3,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,CI_high,CI_high_B,1,marsh ,natural,total carbon,,,0,50,NA,,,,,124.7,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,CI_high,CI_high_C,1,marsh,natural,total carbon,,,0,50,35.3,,,,gramsPerSquareMeterPerYear,71.9,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,RR_low,RR_low_A,1,marsh ,natural,total carbon,,,0,50,71,,,,gramsPerSquareMeterPerYear,118.4,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,RR_low,RR_low_B,1,marsh ,natural,total carbon,,,0,52,54.4,,,,gramsPerSquareMeterPerYear,74.9,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,RR_mid,RR_mid_A,1,marsh ,natural,total carbon,,,0,46,92.7,,,,gramsPerSquareMeterPerYear,129.1,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,RR_mid,RR_mid_B,1,marsh ,natural,total carbon,,,0,52,90,,,,gramsPerSquareMeterPerYear,106.7,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,RR_high,RR_high_A,1,marsh ,natural,total carbon,,,0,52,88.2,,,,gramsPerSquareMeterPerYear,79.1,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,RR_high,RR_high_B,1,marsh ,natural,total carbon,,,0,50,86.9,,,,gramsPerSquareMeterPerYear,121.5,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,BRI_low,BRI_low_A,1,marsh ,natural,total carbon,,,0,52,88.9,,,,gramsPerSquareMeterPerYear,158.4,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,BRI_mid,BRI_mid_A,1,marsh ,natural,total carbon,,,0,50,153.9,,,,gramsPerSquareMeterPerYear,165.5,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,BRI_mid,BRI_mid_B,1,marsh ,natural,total carbon,,,0,46,79.9,,,,gramsPerSquareMeterPerYear,150.2,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,BRI_high,BRI_high_A,1,marsh ,natural,total carbon,,,0,54,120.2,,,,gramsPerSquareMeterPerYear,174.1,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Callaway_et_al_2019,BRI_high,BRI_high_B,1,marsh ,natural,total carbon,,,0,54,112.9,,,,gramsPerSquareMeterPerYear,129.6,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Craft_2007,Altamaha_River,,6,marsh,natural,organic carbon,,,0,30,,,,,,108,21,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Craft_2007,Doboy_Sound,,6,marsh,natural,organic carbon,,,0,30,,,,,,32,6,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Craft_2007,Sapelo_River,,6,marsh,natural,organic carbon,,,0,30,,,,,,21,5,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Drexler_et_al_2009,Frank_Wetland ,FW,1,marsh ,natural,sediment accretion,,,0,730,,,,,,,,,,,,0.12,0.03,centimeterPerYear,,,,,"needs more investigation, TT core has 2 different accretion rate estimates ",
+Drexler_et_al_2009,Tip_of_Mandeville_Tip,TT,1,marsh ,natural,sediment accretion,,,0,666,,,,,,,,,,,,0.17,0.06,centimeterPerYear,,,,,"average of 0.13 , 0.21",
+Drexler_et_al_2009,Bacon Channel Island,BACHI,1,marsh ,natural,sediment accretion,,,0,894,,,,,,,,,,,,0.16,0.07,centimeterPerYear,,,,,,
+Drexler_et_al_2009,Browns_Island,BRI,1,marsh ,natural,sediment accretion,,,0,775,,,,,,,,,,,,0.18,0.11,centimeterPerYear,,,,,,
+Drexler_et_al_2013,Hasty Point,,2,marsh ,disturbed,total carbon,,,0,16-84,50-200,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,Cs137 peaks used to validate but not directly date cores,"range of multiple sequestration rates provided for treatment period, but individual rates would need to be extracted from the graphs",
+Drexler_et_al_2013,Wardlaw 1 ,,2,marsh ,disturbed,total carbon,,,0,16-84,50-200,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Drexler_et_al_2013,Sandy Island Managed ,,2,marsh ,disturbed,total carbon,,,0,16-84,100-435,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Drexler_et_al_2013,Sandy Island Tidal,,2,marsh ,disturbed,total carbon,,,0,16-84,100-435,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Drexler_et_al_2013,Coastal EDU,,2,marsh ,disturbed,total carbon,,,0,16-84,100-250,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Drexler_et_al_2013,Bird Field Managed ,,2,marsh ,disturbed,total carbon,,,0,16-84,100-250,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Drexler_et_al_2019,SG,SG4,1,marsh,restored,organic carbon,,,,,190,,,,gramsPerSquareMeterPerYear,,,,164,54,gramsPerSquareMeterPerYear,,,,,,,,,
+Drexler_et_al_2019,SG,SG5,1,marsh,restored,organic carbon,,,,,224,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Drexler_et_al_2019,SG,SG6,1,marsh,restored,organic carbon,,,,,139,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Drexler_et_al_2019,SG,SG10,1,marsh,restored,organic carbon,,,,,141,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Drexler_et_al_2019,SG,SG11,1,marsh,restored,organic carbon,,,,,81,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Drexler_et_al_2019,SG,SG12,1,marsh,restored,organic carbon,,,,,210,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Drexler_et_al_2019,AS,AS7,1,marsh,restored,organic carbon,,,,,140,15,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Drexler_et_al_2019,AS,AS8,1,marsh,restored,organic carbon,,,,,123,8,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Drexler_et_al_2019,AS,AS9,1,marsh,restored,organic carbon,,,,,129,15,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Drexler_et_al_2019,AS,AS14,1,marsh,restored,organic carbon,,,,,168,11,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Drexler_et_al_2019,AS,AS15,1,marsh,restored,organic carbon,,,,,129,8,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Drexler_et_al_2019,AS,AS16,1,marsh,restored,organic carbon,,,,,115,10,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Ensign_et_al_2020,Choptank,Choptank_non_tidal,1,swamp,natural,total carbon,,,,,,,,,,94,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Ensign_et_al_2020,Choptank,Choptank_head_of_tide,1,swamp,natural,total carbon,,,,,,,,,,182,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Ensign_et_al_2020,Choptank,Choptank_TFFW,1,swamp,natural,total carbon,,,,,,,,,,105,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Ensign_et_al_2020,Choptank,Choptank_marsh,1,marsh,natural,total carbon,,,,,,,,,,180,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Ensign_et_al_2020,Pocomoke,Pocomoke_non_tidal,1,swamp,natural,total carbon,,,,,,,,,,61,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Ensign_et_al_2020,Pocomoke,Pocomoke_head_of_tide,1,swamp,natural,total carbon,,,,,,,,,,154,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Ensign_et_al_2020,Pocomoke,Pocomoke_TFFW,1,swamp,natural,total carbon,,,,,,,,,,135,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Ensign_et_al_2020,Pocomoke,Pocomoke_marsh,1,marsh,natural,total carbon,,,,,,,,,,176,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Gerlach_et_al_2017,Mill_Bayou,LMR_14_9B,1,marsh,disturbed,sediment accretion,,,0,125,,,,,,,,millimeterPerYear,"pollen, pollution chronohorizons ",,,,,,,,,"radiocarbon, pollution and pollen markers, and cs137 all utilitzed in agedepth model (Bchron), sed accumulation rate graphically represented, but never provided outright. ",,
+Johnson_et_al_2007,Sprague_Marsh,SM02-VC1,1,marsh ,natural,total carbon,,,0,310,,,,,,,,,,,,40,,gramsPerSquareMeterPerYear,,,,,,
+Kemp_et_al_2020,Barnegat_Bay,BB1B,1,marsh,disturbed,organic carbon,,,,36,0.25,,,,centimeterPerYear,0.25,,centimeterPerYear,,,,,,,,,,,,
+Krauss_et_al_2018,Savannah_upper,,1,swamp,restored,total carbon,803.3,megagramsPerHectare,0,140,,,,,,,,,,,,72.9,8.8,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_GBC,
+Krauss_et_al_2018,Savannah_middle,,1,swamp,restored,total carbon,464.8,megagramsPerHectare,0,140,,,,,,,,,,,,34.4,15.1,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_GBC,
+Krauss_et_al_2018,Savannah_lower,,1,swamp,restored,total carbon,1033.5,megagramsPerHectare,0,140,,,,,,,,,,,,336.6,151.7,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_GBC,
+Krauss_et_al_2018,Savannah_marsh,,1,marsh,restored,total carbon,454.8,megagramsPerHectare,0,140,,,,,,,,,,,,142.2,95,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_GBC,
+Krauss_et_al_2018,Waccamaw_upper,,1,swamp,restored,total carbon,180.5,megagramsPerHectare,0,140,,,,,,,,,,,,11.2,2.9,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_GBC,
+Krauss_et_al_2018,Waccamaw_middle,,1,swamp,restored,total carbon,397.7,megagramsPerHectare,0,140,,,,,,,,,,,,23.7,3.9,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_GBC,
+Krauss_et_al_2018,Waccamaw_lower,,1,swamp,restored,total carbon,478.6,megagramsPerHectare,0,140,,,,,,,,,,,,7,0.8,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_GBC,
+Krauss_et_al_2018,Waccamaw_marsh,,1,marsh,restored,total carbon,1258.8,megagramsPerHectare,0,140,,,,,,,,,,,,51.1,35,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_GBC,
+Krauss_et_al_2018,Savannah_oligohaline_marsh,,1,marsh,restored,organic carbon,,,0,50,,,,,,,,,,,,96.9,,gramsPerSquareMeterPerYear,,,,"radiocarbon dating, marker type pollen; specific definition of accretion v accumulation used",Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Savannah_oligohaline_marsh,,1,marsh,restored,organic carbon,,,50,100,,,,,,,,,,,,101.3,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Savannah_oligohaline_marsh,,1,marsh,restored,organic carbon,,,100,150,,,,,,,,,,,,20.3,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Savannah_oligohaline_marsh,,1,marsh,restored,organic carbon,,,150,200,,,,,,,,,,,,12.6,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Savannah_oligohaline_marsh,,1,marsh,restored,organic carbon,,,200,250,,,,,,,,,,,,13.9,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Savannah_oligohaline_marsh,,1,marsh,restored,organic carbon,,,250,300,,,,,,,,,,,,15.6,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Savannah_oligohaline_marsh,,1,marsh,restored,organic carbon,,,300,350,,,,,,,,,,,,25.6,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Savannah_degrading_TFFW,,1,swamp,restored,organic carbon,,,0,50,,,,,,,,,,,,286.6,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Savannah_degrading_TFFW,,1,swamp,restored,organic carbon,,,50,100,,,,,,,,,,,,267.6,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Savannah_degrading_TFFW,,1,swamp,restored,organic carbon,,,100,150,,,,,,,,,,,,31.5,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Savannah_degrading_TFFW,,1,swamp,restored,organic carbon,,,150,200,,,,,,,,,,,,38.3,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Savannah_degrading_TFFW,,1,swamp,restored,organic carbon,,,200,250,,,,,,,,,,,,41.1,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Savannah_upper_fresh_TFFW,,1,swamp,restored,organic carbon,,,0,50,,,,,,,,,,,,86.4,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Savannah_upper_fresh_TFFW,,1,swamp,restored,organic carbon,,,50,100,,,,,,,,,,,,46,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Savannah_upper_fresh_TFFW,,1,swamp,restored,organic carbon,,,100,150,,,,,,,,,,,,20.7,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Savannah_upper_fresh_TFFW,,1,swamp,restored,organic carbon,,,150,200,,,,,,,,,,,,4.8,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Savannah_upper_fresh_TFFW,,1,swamp,restored,organic carbon,,,200,250,,,,,,,,,,,,5.3,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Savannah_upper_fresh_TFFW,,1,swamp,restored,organic carbon,,,250,300,,,,,,,,,,,,12.1,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Savannah_upper_fresh_TFFW,,1,swamp,restored,organic carbon,,,300,350,,,,,,,,,,,,19.3,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Waccamaw_oligohaline_marsh,,1,marsh,restored,organic carbon,,,0,50,,,,,,,,,,,,74.1,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Waccamaw_oligohaline_marsh,,1,marsh,restored,organic carbon,,,50,100,,,,,,,,,,,,37.9,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Waccamaw_degrading_TFFW,,1,swamp,restored,organic carbon,,,0,50,,,,,,,,,,,,13.2,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Waccamaw_degrading_TFFW,,1,swamp,restored,organic carbon,,,50,100,,,,,,,,,,,,3.1,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Waccamaw_middle_fresh_TFFW,,1,swamp,restored,organic carbon,,,0,50,,,,,,,,,,,,32.4,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Waccamaw_middle_fresh_TFFW,,1,swamp,restored,organic carbon,,,50,100,,,,,,,,,,,,19.3,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Waccamaw_upper_fresh_TFFW,,1,swamp,restored,organic carbon,,,0,50,,,,,,,,,,,,7.3,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Krauss_et_al_2018,Waccamaw_upper_fresh_TFFW,,1,swamp,restored,organic carbon,,,50,100,,,,,,,,,,,,8.02,,gramsPerSquareMeterPerYear,,,,,Krauss_et_al_2018_Holocene,
+Lagomasino_et_al_2020,Huddy_Gut,HG1,1,marsh,disturbed,sediment accretion,,,,,,,,,,,,,,,,,,,,,,,,
+Lagomasino_et_al_2020,Huddy_Gut,HG2,1,marsh,disturbed,sediment accretion,,,,,,,,,,,,,,,,,,,,,,,,
+Lagomasino_et_al_2020,Huddy_Gut,HG3,1,marsh,disturbed,sediment accretion,,,,,0.35,0.03,,,centimeterPerYear,0.33,0.02,centimeterPerYear,,,,,,,,,,,,
+Lagomasino_et_al_2020,Porpoise_Point,PP1,1,marsh,disturbed,sediment accretion,,,,,0.36,0.03,,,centimeterPerYear,0.2,,centimeterPerYear,,,,,,,,,,,,
+Lagomasino_et_al_2020,Porpoise_Point,PP2,1,marsh,disturbed,sediment accretion,,,,,0.3,0.04,,,centimeterPerYear,0.11,,centimeterPerYear,,,,,,,,,,,,
+Lagomasino_et_al_2020,Porpoise_Point,PP3,1,marsh,disturbed,sediment accretion,,,,,0.28,0.01,,,centimeterPerYear,0.2,0.02,centimeterPerYear,,,,,,,,,,,,
+Luk_et_al_2020,SITE_1,,3,marsh,natural,sediment accretion,,,,,4.06,0.48,1.9,0.49,millimeterPerYear,,,,,,,,,,,,,,provides study level accumulation outputs for both CRS and CIC models (based on Pb210).,S3
+Luk_et_al_2020,SITE_2,,3,marsh,natural,sediment accretion,,,,,3.47,0.52,2.61,0.91,millimeterPerYear,,,,,,,,,,,,,,,S3
+Luk_et_al_2020,SITE_3,,3,marsh,natural,sediment accretion,,,,,6.4,0.9,2.91,0.56,millimeterPerYear,,,,,,,,,,,,,,,S3
+McTigue_et_al_2020,Traps_Bay,1L,,marsh,disturbed,organic carbon,,,0,224,,,,,,,,,,,,39,0.3,gramsPerSquareMeterPerYear,,,,,,
+McTigue_et_al_2020,Traps_Bay,2L,,marsh,disturbed,organic carbon,,,0,194,,,,,,,,,,,,38,2,gramsPerSquareMeterPerYear,,,,,,
+McTigue_et_al_2020,Traps_Bay,3L,,marsh,disturbed,organic carbon,,,0,90,,,,,,,,,,,,49,5,gramsPerSquareMeterPerYear,,,,,,
+McTigue_et_al_2020,Traps_Bay,2L-Pb,,marsh,disturbed,organic carbon,,,0,2,167,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+McTigue_et_al_2020,Traps_Bay,2L-Pb,,marsh,disturbed,organic carbon,,,2,4,122,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+McTigue_et_al_2020,Traps_Bay,2L-Pb,,marsh,disturbed,organic carbon,,,4,6,133,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+McTigue_et_al_2020,Traps_Bay,2L-Pb,,marsh,disturbed,organic carbon,,,6,8,135,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+McTigue_et_al_2020,Traps_Bay,2L-Pb,,marsh,disturbed,organic carbon,,,8,10,135,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+McTigue_et_al_2020,Traps_Bay,2L-Pb,,marsh,disturbed,organic carbon,,,10,12,138,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+McTigue_et_al_2020,Traps_Bay,2L-Pb,,marsh,disturbed,organic carbon,,,12,14,148,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+McTigue_et_al_2020,Traps_Bay,2L-Pb,,marsh,disturbed,organic carbon,,,14,16,149,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+McTigue_et_al_2020,Traps_Bay,2L-Pb,,marsh,disturbed,organic carbon,,,16,18,149,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+McTigue_et_al_2020,Traps_Bay,2L-Pb,,marsh,disturbed,organic carbon,,,18,20,147,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+McTigue_et_al_2020,Traps_Bay,2L-Pb,,marsh,disturbed,organic carbon,,,20,22,147,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+McTigue_et_al_2020,Traps_Bay,2L-Pb,,marsh,disturbed,organic carbon,,,22,24,143,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+McTigue_et_al_2020,Traps_Bay,2L-Pb,,marsh,disturbed,organic carbon,,,24,26,135,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+McTigue_et_al_2020,Traps_Bay,2L-Pb,,marsh,disturbed,organic carbon,,,26,28,127,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+McTigue_et_al_2020,Traps_Bay,2L-Pb,,marsh,disturbed,organic carbon,,,28,30,116,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+McTigue_et_al_2020,Traps_Bay,2L-Pb,,marsh,disturbed,organic carbon,,,30,32,99,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Noe_et_al_2016,Tidal freshwater forest,W1,1,swamp,restored,total carbon,,,,,61,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Noe_et_al_2016,Moderately salt-impacted forest,W2,1,swamp,restored,total carbon,,,,,56,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Noe_et_al_2016,Highly salt-impacted forest,W3,1,swamp,restored,total carbon,,,,,65,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Noe_et_al_2016,Oligohaline marsh,W4,1,marsh,restored,total carbon,,,,,21,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Peck_et_al_2020,Netarts,,1,mudflat,natural,organic carbon,,,,,51,8,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Peck_et_al_2020,Netarts,,14,marsh,natural,organic carbon,,,,,74,41,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Peck_et_al_2020,Youngs Bay,,1,marsh,natural,organic carbon,,,,,54,8,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Peck_et_al_2020,Youngs Bay,,4,marsh,natural,organic carbon,,,,,107,43,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Peck_et_al_2020,Nehalem,,1,marsh,natural,organic carbon,,,,,49,7,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Peck_et_al_2020,Nehalem,,5,marsh,natural,organic carbon,,,,,120,39,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Peck_et_al_2020,Alsea,,3,marsh,natural,organic carbon,,,,,67,21,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Peck_et_al_2020,Alsea,,7,marsh,natural,organic carbon,,,,,63,19,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Peck_et_al_2020,Tillamook,,4,marsh,natural,organic carbon,,,,,88,20,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Peck_et_al_2020,Salmon River,,7,marsh,natural,organic carbon,,,,,79,21,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Peck_et_al_2020,Coquille,,1,marsh,natural,organic carbon,,,,,50,13,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Peck_et_al_2020,Coquille,,5,marsh,natural,organic carbon,,,,,52,7,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Poppe_and_Rybczyk_2018,1,2J,1,seagrass,natural,total carbon,1.24,kilogramsPerSquareMeter,,14,,,7.51,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,CRS values needed,
+Poppe_and_Rybczyk_2018,2,3F,1,seagrass,natural,total carbon,1.9,kilogramsPerSquareMeter,,10,,,13.38,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Poppe_and_Rybczyk_2018,3,4F,1,seagrass,natural,total carbon,1.59,kilogramsPerSquareMeter,,8,,,5.03,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Poppe_and_Rybczyk_2018,4,5B,1,seagrass,natural,total carbon,1.33,kilogramsPerSquareMeter,,10,,,11.88,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Poppe_and_Rybczyk_2018,5,5F,1,seagrass,natural,total carbon,1.18,kilogramsPerSquareMeter,,16,,,8.52,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Poppe_and_Rybczyk_2018,6,5J,1,seagrass,natural,total carbon,1.3,kilogramsPerSquareMeter,,20,,,21.72,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Poppe_and_Rybczyk_2019,HM5,,2,marsh,natural,organic carbon,7.95,kilogramsPerSquareMeter,,30,90.09,,,,gramsPerSquareMeterPerYear,,,,,,,,,,177.53,,gramsPerSquareMeterPerYear,,,
+Poppe_and_Rybczyk_2019,LM5,,2,marsh,natural,organic carbon,4.93,kilogramsPerSquareMeter,,30,39.45,,,,gramsPerSquareMeterPerYear,,,,,,,,,,61.63,,gramsPerSquareMeterPerYear,,,
+Poppe_and_Rybczyk_2019,HM1,,2,marsh,natural,organic carbon,6.03,kilogramsPerSquareMeter,,30,56.26,,,,gramsPerSquareMeterPerYear,,,,,,,,,,176.81,,gramsPerSquareMeterPerYear,,,
+Poppe_and_Rybczyk_2019,LM1,,2,marsh,natural,organic carbon,3.73,kilogramsPerSquareMeter,,30,37.31,,,,gramsPerSquareMeterPerYear,,,,,,,,,,148.63,,gramsPerSquareMeterPerYear,,,
+Poppe_and_Rybczyk_2019,HM3,,2,marsh,natural,organic carbon,6.08,kilogramsPerSquareMeter,,30,121.55,,,,gramsPerSquareMeterPerYear,,,,,,,,,,147.88,,gramsPerSquareMeterPerYear,,,
+Poppe_and_Rybczyk_2019,LM3,,2,marsh,natural,organic carbon,5.96,kilogramsPerSquareMeter,,30,162.82,,,,gramsPerSquareMeterPerYear,,,,,,,,,,166.79,,gramsPerSquareMeterPerYear,,,
+Poppe_and_Rybczyk_2019,HM4,,2,marsh,natural,organic carbon,6.84,kilogramsPerSquareMeter,,30,282.79,,,,gramsPerSquareMeterPerYear,,,,,,,,,,561.02,,gramsPerSquareMeterPerYear,,,
+Poppe_and_Rybczyk_2019,LM4,,2,marsh,natural,organic carbon,6.12,kilogramsPerSquareMeter,,30,193.73,,,,gramsPerSquareMeterPerYear,,,,,,,,,,222.28,,gramsPerSquareMeterPerYear,,,
+Poppe_and_Rybczyk_2019,R1,,2,marsh,restored,organic carbon,3.97,kilogramsPerSquareMeter,,30,226.22,,,,gramsPerSquareMeterPerYear,,,,,,,,,,394.24,,gramsPerSquareMeterPerYear,,,
+Poppe_and_Rybczyk_2019,R2,,2,marsh,restored,organic carbon,4.84,kilogramsPerSquareMeter,,30,350.23,,,,gramsPerSquareMeterPerYear,,,,,,,,,,611.69,,gramsPerSquareMeterPerYear,,,
+Poppe_and_Rybczyk_2019,R3,,2,marsh,restored,organic carbon,4.77,kilogramsPerSquareMeter,,30,124.03,,,,gramsPerSquareMeterPerYear,,,,,,,,,,217.85,,gramsPerSquareMeterPerYear,,,
+Poppe_and_Rybczyk_2019,R4,,2,marsh,restored,organic carbon,4.13,kilogramsPerSquareMeter,,30,221.49,,,,gramsPerSquareMeterPerYear,,,,,,,,,,387.95,,gramsPerSquareMeterPerYear,,,
+Poppe_and_Rybczyk_2019,TF,,2,mudflat,natural,organic carbon,2.95,kilogramsPerSquareMeter,,30,0,,,,gramsPerSquareMeterPerYear,,,,,,,,,,-2.95,,gramsPerSquareMeterPerYear,,,
+Poppe_et_al_2019,QM,,2,marsh,natural,total carbon,7.17,kilogramsPerSquareMeter,,30,110.2,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Poppe_et_al_2019,HP,,2,marsh,natural,total carbon,9.85,kilogramsPerSquareMeter,,30,58,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Poppe_et_al_2019,OI,,2,swamp,natural,total carbon,7.81,kilogramsPerSquareMeter,,30,173.1,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Poppe_et_al_2019,NE,,2,scrub/shrub,restored,total carbon,6.48,kilogramsPerSquareMeter,,30,352.1,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Poppe_et_al_2019,SP,,2,marsh,restored,total carbon,8.29,kilogramsPerSquareMeter,,30,91.4,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Poppe_et_al_2019,MA,,2,marsh,restored,total carbon,9.74,kilogramsPerSquareMeter,,30,NA,,,,NA,,,,,,,,,,,,,,,
+Poppe_et_al_2019,US,,2,mudflat,restored,total carbon,5.37,kilogramsPerSquareMeter,,30,NA,,,,NA,,,,,,,,,,,,,,,
+Poppe_et_al_2019,SS,,2,marsh,restored,total carbon,6.11,kilogramsPerSquareMeter,,30,NA,,,,NA,,,,,,,,,,,,,,,
+Poppe_et_al_2019,QW,,2,marsh,restored,total carbon,11.31,kilogramsPerSquareMeter,,30,NA,,,,NA,,,,,,,,,,,,,,,
+Poppe_et_al_2019,SN,,2,marsh,restored,total carbon,18.52,kilogramsPerSquareMeter,,30,NA,,,,NA,,,,,,,,,,,,,,,
+Poppe_et_al_2019,WW,,2,marsh,restored,total carbon,23.36,kilogramsPerSquareMeter,,30,NA,,,,NA,,,,,,,,,,,,,,,
+Poppe_et_al_2019,WF,,2,swamp,restored,total carbon,15.34,kilogramsPerSquareMeter,,30,NA,,,,NA,,,,,,,,,,,,,,,
+Smith_et_al_2015,09WCC01,09WCC01_01,1,marsh,natural,sediment accretion,,,,60,0.49,0.19,,,centimeterPerYear,,,,,,,,,,,,,CRS Accretion (with SD) accounting for compaction,core max depth ranged 45-60 cm,
+Smith_et_al_2015,09WCC01,09WCC01_02,1,marsh,natural,sediment accretion,,,,60,0.26,0.03,,,centimeterPerYear,,,,,,,,,,,,,,,
+Smith_et_al_2015,09WCC01,09WCC01_03,1,marsh,natural,sediment accretion,,,,60,0.55,0.12,,,centimeterPerYear,,,,,,,,,,,,,,,
+Smith_et_al_2015,09WCC01,09WCC01_04,1,marsh,natural,sediment accretion,,,,60,0.71,0.18,,,centimeterPerYear,,,,,,,,,,,,,,,
+Smith_et_al_2015,09WCC01,09WCC01_05,1,marsh,natural,sediment accretion,,,,60,1.03,0.35,,,centimeterPerYear,,,,,,,,,,,,,,,
+Smith_et_al_2015,09WCC01,09WCC01_06,1,marsh,natural,sediment accretion,,,,60,0.5,0.13,,,centimeterPerYear,,,,,,,,,,,,,,,
+Smith_et_al_2015,09WCC01,09WCC01_07,1,marsh,natural,sediment accretion,,,,60,0.46,0.05,,,centimeterPerYear,,,,,,,,,,,,,,,
+Smith_et_al_2015,09WCC01,09WCC01_08,1,marsh,natural,sediment accretion,,,,60,0.37,0.06,,,centimeterPerYear,,,,,,,,,,,,,,,
+Smith_et_al_2015,09WCC01,09WCC01_09,1,marsh,natural,sediment accretion,,,,60,0.51,0.31,,,centimeterPerYear,,,,,,,,,,,,,,,
+Thom_1992,Nisqually_River_Delta,ND1,1,marsh,natural,sediment accretion,,,0,26,,,,,,2.3,,millimeterPerYear,,,,,,,,,,,,
+Thom_1992,Nisqually_River_Delta,ND2,1,marsh,natural,sediment accretion,,,0,35,,,,,,3,,millimeterPerYear,,,,,,,,,,,,
+Thom_1992,Nisqually_River_Delta,ND3,1,marsh,disturbed,sediment accretion,,,0,28,,,,,,NA,,millimeterPerYear,,,,,,,,,,,,
+Thom_1992,Nisqually_River_Delta,ND4,1,marsh,natural,sediment accretion,,,0,41,,,,,,3,,millimeterPerYear,,,,,,,,,,,,
+Thom_1992,Padilla_Bay,PB3,1,marsh,natural,sediment accretion,,,0,21,,,,,,4.5,,millimeterPerYear,,,,,,,,,,,,
+Thom_1992,Washington_Harbor,WH1,1,marsh,natural,sediment accretion,,,0,23,,,,,,3,,millimeterPerYear,,,,,,,,,,,,
+Thom_1992,Elk_River_Prev_Diked,ED1,1,marsh,disturbed,sediment accretion,,,0,9,,,,,,1.6,,millimeterPerYear,,,,,,,,,,,,
+Thom_1992,Elk_River_Not_Diked,ER1,1,marsh,natural,sediment accretion,,,0,31,,,,,,6.6,,millimeterPerYear,,,,,,,,,,,,
+Thom_1992,Salmon_River,SR1,1,marsh,natural,sediment accretion,,,0,31,,,,,,3,,millimeterPerYear,,,,,,,,,,,,
+Thom_1992,Salmon_River,SR2,1,marsh,disturbed,sediment accretion,,,0,25,,,,,,3,,millimeterPerYear,,,,,,,,,,,,
+Thom_1992,South_Slough,SS1,1,marsh,natural,sediment accretion,,,0,34,,,,,,NA,,millimeterPerYear,,,,,,,,,,,,
+Watson_and_Byrne_2013,,,24,marsh,natural,,,,,,,,,,,,,,,,,2.1,,millimeterPerYear,,,,"radiocarbon age, accretion rates mm yr-1 for entire study region (pre/post 750yrs ago) but no mass accumulation rates provided",verify if this should still be included,
+Weis_et_al_2001,Tijuana_Estuary,Tijuana_Estuary_East_low,,marsh,disturbed,sediment accretion,,,0,43,,,,,,1.23,,centimeterPerYear,,,,,,,,,,,depth and accretion rate approximate (≥) for this observation,
+Weis_et_al_2001,Tijuana_Estuary,Tijuana_Estuary_East_mid_1,,marsh,disturbed,sediment accretion,,,0,29,,,,,,0.83,,centimeterPerYear,,,,,,,,,,,,
+Weis_et_al_2001,Tijuana_Estuary,Tijuana_Estuary_East_mid_2,,marsh,disturbed,sediment accretion,,,0,33,,,,,,0.94,,centimeterPerYear,,,,,,,,,,,,
+Weis_et_al_2001,Tijuana_Estuary,Tijuana_Estuary_West_low,,marsh,disturbed,sediment accretion,,,0,37,,,,,,1.06,,centimeterPerYear,,,,,,,,,,,,
+Weis_et_al_2001,Tijuana_Estuary,Tijuana_Estuary_West_mid_1,,marsh,disturbed,sediment accretion,,,0,25,,,,,,0.71,,centimeterPerYear,,,,,,,,,,,,
+Weis_et_al_2001,Tijuana_Estuary,Tijuana_Estuary_West_mid_2,,marsh,disturbed,sediment accretion,,,0,33,,,,,,0.94,,centimeterPerYear,,,,,,,,,,,,
+Giblin_and_Forbrich_2018,Nelson_Island_Creek,Giblin2018Core_1,1,marsh,,organic carbon,,,0,40,,,111,,,114,,gramsPerSquareMeterPerYear,,,,,,,,,,,units are actually g C m2 a-1,
+Giblin_and_Forbrich_2018,Nelson_Island_Creek,Giblin2018Core_2,1,marsh,,organic carbon,,,0,40,,,110,,,112,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Giblin_and_Forbrich_2018,Nelson_Island_Creek,Giblin2018Core_3,1,marsh,,organic carbon,,,0,40,,,,,,130,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Giblin_and_Forbrich_2018,Nelson_Island_Creek,Giblin2018Core_4,1,marsh,,organic carbon,,,0,40,,,110,,,93,,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Vaughn_et_al_2020,St_Augustine,St_Augustine_Mangrove,1,mangrove,disturbed,sediment accretion,2.44 +/- 0.12,kilogramsPerSquareMeter,0,38,1.5,0.3,,,millimeterPerYear,,,,,,,,,,,,,"includes sedimentation rates using both CFCS annd CRS models, CRS numbers are reported here, also includes carbon burial rates ",,
+Vaughn_et_al_2020,St_Augustine,St_Augustine_Salt_marsh,1,marsh,disturbed,sediment accretion,2.47 +/- 0.12,kilogramsPerSquareMeter,0,38,0.9,0.3,,,millimeterPerYear,,,,,,,,,,,,,,,
+Vaughn_et_al_2020,St_Augustine,St_Augustine_Transition,1,scrub/shrub,disturbed,sediment accretion,4.18 +/- 0.21,kilogramsPerSquareMeter,0,38,2.3,0.3,,,millimeterPerYear,1.5,,millimeterPerYear,,,,,,,,,,,transition zone between marsh and mangrove,
+Vaughn_et_al_2020,Waccasassa_Bay,Waccasassa_Bay_Mangrove,1,mangrove,natural,sediment accretion,2.76 +/- 0.15,kilogramsPerSquareMeter,0,38,3,0.5,,,millimeterPerYear,4,,millimeterPerYear,,,,,,,,,,,,
+Vaughn_et_al_2020,Waccasassa_Bay,Waccasassa_Bay_Salt_marsh,1,marsh,natural,sediment accretion,2.98 +/-0.14,kilogramsPerSquareMeter,0,38,0.3,0.2,,,millimeterPerYear,,,,,,,,,,,,,,,
+Vaughn_et_al_2020,Waccasassa_Bay,Waccasassa_Bay_Transition,1,scrub/shrub,natural,sediment accretion,4.3 +/- 0.22,kilogramsPerSquareMeter,0,38,2.7,0.5,,,millimeterPerYear,,,,,,,,,,,,,,transition zone between marsh and mangrove,
+Piazza_et_al_2021,CRMS0605,,2,marsh,disturbed,carbon accumulation,,,,,,,,,,207,13.3,gramsPerSquareMeterPerYear,,,,,,,,,,"accretion rate values from 2011 paper, cs137 activity values per depth interval are found in the 2021 dataset ",,"disturbed == indirect or direct hurricane influence , feldspar marker "
+Piazza_et_al_2021,CRMS0605-H,,1,marsh,disturbed,carbon accumulation,,,,,,,,,,113,18,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS1277,,1,marsh,disturbed,carbon accumulation,,,,,,,,,,35,7.3,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS1277-H,,1,marsh,disturbed,carbon accumulation,,,,,,,,,,81,11,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS0294,,2,marsh,disturbed,carbon accumulation,,,,,,,,,,177,NA,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS0294-H,,2,marsh,disturbed,carbon accumulation,,,,,,,,,,182,25.4,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS0268,,2,marsh,disturbed,carbon accumulation,,,,,,,,,,125,15.7,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS0268-H,,1,marsh,disturbed,carbon accumulation,,,,,,,,,,72,5.9,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS0219,,2,marsh,disturbed,carbon accumulation,,,,,,,,,,132,12.4,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS0219-H,,2,marsh,disturbed,carbon accumulation,,,,,,,,,,144,25.1,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS0128,,2,marsh,disturbed,carbon accumulation,,,,,,,,,,206,16.2,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS0128-H,,2,marsh,disturbed,carbon accumulation,,,,,,,,,,144,13.8,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS0669,,2,marsh,disturbed,carbon accumulation,,,,,,,,,,102,7.9,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS2156,,1,marsh,disturbed,carbon accumulation,,,,,,,,,,102,5.7,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS0651,,2,marsh,disturbed,carbon accumulation,,,,,,,,,,119,18.1,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS0651-H,,1,marsh,disturbed,carbon accumulation,,,,,,,,,,132,12.5,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS0672,,2,marsh,disturbed,carbon accumulation,,,,,,,,,,107,9.8,gramsPerSquareMeterPerYear,0.67,,centimeterPerYear,,,,,,,,,
+Piazza_et_al_2021,CRMS0672-H,,2,marsh,disturbed,carbon accumulation,,,,,,,,,,80,5.3,gramsPerSquareMeterPerYear,1.11,,centimeterPerYear,,,,,,,,,
+Piazza_et_al_2021,CRMS0610,,1,marsh,disturbed,carbon accumulation,,,,,,,,,,120,20.4,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS0610-H,,2,marsh,disturbed,carbon accumulation,,,,,,,,,,106,10.4,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS0312,,1,marsh,disturbed,carbon accumulation,,,,,,,,,,202,NA,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS0312-H,,2,marsh,disturbed,carbon accumulation,,,,,,,,,,204,20,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS0135,,2,marsh,disturbed,carbon accumulation,,,,,,,,,,127,23.9,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS0135-H,,2,marsh,disturbed,carbon accumulation,,,,,,,,,,,,,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS0326,,2,marsh,disturbed,carbon accumulation,,,,,,,,,,183,35,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS0326-H,,2,marsh,disturbed,carbon accumulation,,,,,,,,,,154,20.7,gramsPerSquareMeterPerYear,,,,,,,0.23,,centimeterPerYear,,,
+Piazza_et_al_2021,CRMS0164,,2,marsh,disturbed,carbon accumulation,,,,,,,,,,132,12.4,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS0164-H,,2,marsh,disturbed,carbon accumulation,,,,,,,,,,203,34.8,gramsPerSquareMeterPerYear,2.69,,centimeterPerYear,,,,,,,,,
+Piazza_et_al_2021,CRMS0147,,1,marsh,disturbed,carbon accumulation,,,,,,,,,,104,32.5,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Piazza_et_al_2021,CRMS0147-H,,2,marsh,disturbed,carbon accumulation,,,,,,,,,,122,13.3,gramsPerSquareMeterPerYear,,,,,,,,,,,,
+Rodriguez_et_al_2022,JB,JB_1,1,marsh,,organic carbon,19764.928,gramsPerSquareMeter,0,90,,,,,,,,,,,,,,,,,,,,
+Rodriguez_et_al_2022,JB,JB_5,1,marsh,,organic carbon,22915.952,gramsPerSquareMeter,0,101,,,,,,,,,,,,,,,,,,,,
+Rodriguez_et_al_2022,JB,JB_6,1,marsh,,organic carbon,17632.889,gramsPerSquareMeter,0,82,,,,,,,,,,,,,,,,,,,,
+Rodriguez_et_al_2022,JB,JB_7,1,marsh,,organic carbon,13026.761,gramsPerSquareMeter,0,58,,,,,,,,,,,,,,,,,,,,
+Rodriguez_et_al_2022,JB,JB_8,1,marsh,,organic carbon,7350.078,gramsPerSquareMeter,0,27,,,,,,,,,,,,,,,,,,,,
+Rodriguez_et_al_2022,LB,LB_3,1,marsh,,organic carbon,21647.356,gramsPerSquareMeter,0,124,,,,,,,,,,,,,,,,,,,,
+Rodriguez_et_al_2022,LB,LB_5,1,marsh,,organic carbon,19197.176,gramsPerSquareMeter,0,83,,,,,,,,,,,,,,,,,,,,
+Rodriguez_et_al_2022,LB,LB_6,1,marsh,,organic carbon,15832.964,gramsPerSquareMeter,0,80,,,,,,,,,,,,,,,,,,,,
+Rodriguez_et_al_2022,LB,LB_7,1,marsh,,organic carbon,12040.256,gramsPerSquareMeter,0,51,,,,,,,,,,,,,,,,,,,,
+Rodriguez_et_al_2022,LB,LB_8,1,marsh,,organic carbon,7417.639,gramsPerSquareMeter,0,25,,,,,,,,,,,,,,,,,,,,
+Rodriguez_et_al_2022,LB,LB_9,1,marsh,,organic carbon,8423.495,gramsPerSquareMeter,0,31,,,,,,,,,,,,,,,,,,,,
+Rodriguez_et_al_2022,NB,NB_1,1,marsh,,organic carbon,11274.817,gramsPerSquareMeter,0,51,,,,,,,,,,,,,,,,,,,,
+Rodriguez_et_al_2022,NB,NB_9,1,marsh,,organic carbon,6691.215,gramsPerSquareMeter,0,31,,,,,,,,,,,,,,,,,,,,
+Rodriguez_et_al_2022,NB,NB_3b,1,marsh,,organic carbon,6326.948,gramsPerSquareMeter,0,21,,,,,,,,,,,,,,,,,,,,
+Rodriguez_et_al_2022,NPR_U,NPR_U_1,1,marsh,,organic carbon,12120.601,gramsPerSquareMeter,0,102,,,,,,,,,,,,,,,,,,,,
+Rodriguez_et_al_2022,NPR_U,NPR_U_5,1,marsh,,organic carbon,14520.106,gramsPerSquareMeter,0,75,,,,,,,,,,,,,,,,,,,,
+Rodriguez_et_al_2022,NPR_D,NPR_D_8,1,marsh,,organic carbon,5012.863,gramsPerSquareMeter,0,53,,,,,,,,,,,,,,,,,,,,
+Rodriguez_et_al_2022,NPR_D,NPR_D_14,1,marsh,,organic carbon,3482.143,gramsPerSquareMeter,0,36,,,,,,,,,,,,,,,,,,,,
+Rodriguez_et_al_2022,NPR_D,NPR_D_16,1,marsh,,organic carbon,4346.338,gramsPerSquareMeter,0,42,,,,,,,,,,,,,,,,,,,,
+Rodriguez_et_al_2022,SRE_U,SRE_U_1,1,marsh,,organic carbon,10761.98,gramsPerSquareMeter,0,80,,,,,,,,,,,,,,,,,,,,
+Rodriguez_et_al_2022,SRE_U,SRE_U_6,1,marsh,,organic carbon,8024.401,gramsPerSquareMeter,0,60,,,,,,,,,,,,,,,,,,,,
+Rodriguez_et_al_2022,SRE_D,SRE_D_1,1,marsh,,organic carbon,2848.657,gramsPerSquareMeter,0,31,,,,,,,,,,,,,,,,,,,,
+Weston_et_al_2023,KEN,1,1,marsh,,carbon accumulation,,,,,98.3,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,KEN,7,1,marsh,,carbon accumulation,,,,,98.6,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,KEN,8,1,marsh,,carbon accumulation,,,,,82.9,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,PIE,1,1,marsh,,carbon accumulation,,,,,105.2,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,PIE,2,1,marsh,,carbon accumulation,,,,,116.3,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,PIE,7,1,marsh,,carbon accumulation,,,,,143.6,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,PIE,8,1,marsh,,carbon accumulation,,,,,88.4,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,CON,1,1,marsh,,carbon accumulation,,,,,108.6,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,CON,2,1,marsh,,carbon accumulation,,,,,57.4,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,CON,8,1,marsh,,carbon accumulation,,,,,79.6,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,DEL,3,1,marsh,,carbon accumulation,,,,,141.1,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,DEL,5,1,marsh,,carbon accumulation,,,,,110.8,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,DEL,9,1,marsh,,carbon accumulation,,,,,120.7,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,YRK,2,1,marsh,,carbon accumulation,,,,,57.1,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,YRK,3,1,marsh,,carbon accumulation,,,,,118.3,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,YRK,5,1,marsh,,carbon accumulation,,,,,60.2,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,JMS,2,1,marsh,,carbon accumulation,,,,,143.6,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,JMS,3,1,marsh,,carbon accumulation,,,,,167.6,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,JMS,4,1,marsh,,carbon accumulation,,,,,153.8,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,CPF,2,1,marsh,,carbon accumulation,,,,,72.3,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,CPF,4,1,marsh,,carbon accumulation,,,,,40.1,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,CPF,6,1,marsh,,carbon accumulation,,,,,10.1,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,CPF,7,1,marsh,,carbon accumulation,,,,,13.2,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,EDS,1,1,marsh,,carbon accumulation,,,,,43.1,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,EDS,5,1,marsh,,carbon accumulation,,,,,38.8,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,EDS,9,1,marsh,,carbon accumulation,,,,,9.1,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,EDS,10,1,marsh,,carbon accumulation,,,,,11.2,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,ALT,3,1,marsh,,carbon accumulation,,,,,43.2,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,ALT,5,1,marsh,,carbon accumulation,,,,,52.1,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,ALT,6,1,marsh,,carbon accumulation,,,,,47.1,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,
+Weston_et_al_2023,ALT,9,1,marsh,,carbon accumulation,,,,,25.7,,,,gramsPerSquareMeterPerYear,,,,,,,,,,,,,,,

@@ -1,0 +1,300 @@
+---
+title: "NGGI 2022 Report"
+author: "Coastal Carbon Network"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_float: true
+    theme: spacelab
+    highlight: tango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(DT)
+```
+
+```{r}
+# Eliminate other management types for comparisons
+# reported_natural <- reported_all %>% filter(management == "natural") %>% filter(habitat != "mudflat")
+```
+
+## Methods
+
+Error was not propagated for rates that represent site-level averages (of 2 or more cores)
+meaning the SE provided was treated as a single unaveraged value
+standardize to depth
+
+1. Add old (Meng's) and new synthesis (lit review Henry and Rose did early on) to the same folder. Enforce consistent study, site and core IDs which match library.
+
+2. Calculate carbon stocks or organic matter stocks from Coastal Carbon Library. Make sure to do both 1m for all, as well as specified depth increments for the subset of cores where we only have accretion rates from lit review datasets. If there is a 137Cs date from 0 to 25 cm, calculate mean stock for 0 to 25 cm, if 210Pb from 0 to 100 cm, same thing.
+
+3. Normalize units. Organic matter accumulation should be gOM per m2 per year, carbon accumulation gC per m2 per year, and accretion rate rate units (centimeters per year). Calculate organic matter or carbon accumulation rate when only accretion and carbon stocks are present.
+
+4. Provide a master conversion to organic carbon from organic matter when organic carbon is missing.
+
+Mangrove: OC = 0.486 OM - 0.0160 OM^2
+Marsh: OC = 0.427 OM + 0.0635 OM^2
+
+5. Move the workflow over to special features in R. Find a file of Koppen climate zones and assign consistent classification of climate, same with state boarders.
+
+6. Summarize carbon accumulation rate, and stocks by climate zones. Means, medians, geometric means, s.d., n, s.e., minimum, maximum, upper and lower 95% distribution.
+
+6b. Probably want to do the same for states too.
+
+Additional Notes:
+
+In the case where there's only accretion rate. 
+
+LOI or fraction carbon * dry bulk density 
+Scrub shrub and swamp - use mangrove relationship 
+
+If only a min/max range was reported, we need separate columns
+
+Multiply the carbon stock with the accretion rate (associated interval)
+
+
+Cases where we have accretion rates (ex. Cm/yr)
+Extract LOI and fraction carbon 
+For organic matter 
+Drexler rates and depths need to be in long form
+
+
+Accretion x stock => unit conversions => Calculate the depth weighted average for multiple depth increments
+New col for weight (proportion of the core that, sum of each value times its weight)
+
+Final cleaning
+Pivot longer
+Querying of carbon database (
+Accretion rate
+Unit conversions
+Bind to Meng
+
+
+## Findings
+
+
+
+## Accumulation Rates Overview
+
+```{r, echo=FALSE, fig.width=12, fig.height=6}
+# reported_all %>% 
+#   pivot_longer(col = )
+reported_all %>% 
+  drop_na(cs137_CAR) %>% 
+  ggplot(aes(cs137_CAR)) +
+  geom_density() + geom_rug() +
+  facet_wrap(~inventory_year)+
+  theme_bw(base_size = 15) +
+  xlab("Cs-137 Carbon Accumulation Rate (gC m-2 yr-1)")
+
+```
+
+```{r, echo=FALSE, fig.width=12, fig.height=6}
+# reported_all %>% 
+#   pivot_longer(col = )
+reported_all %>% 
+  drop_na(pb210_CAR) %>% 
+  ggplot(aes(pb210_CAR)) +
+  geom_density() + geom_rug() +
+  facet_wrap(~inventory_year) +
+  theme_bw(base_size = 15)+
+  xlab("Pb-210 Carbon Accumulation Rate (gC m-2 yr-1)")
+
+```
+
+Comparison of Cs137 and Pb210 Determined Rates
+
+```{r}
+reported_all %>% drop_na(cs137_CAR, pb210_CAR) %>% 
+  ggplot(aes(cs137_CAR, pb210_CAR, col = ecosystem)) + geom_point() +
+    xlab("Cs-137 Carbon Accumulation Rate (gC m-2 yr-1)") +
+    ylab("Pb-210 Carbon Accumulation Rate (gC m-2 yr-1)")
+```
+
+### Ecosystem and Climate Zone
+
+```{r, echo=FALSE, fig.width=12, fig.height=6}
+reported_all %>% filter(habitat != "mudflat") %>% drop_na(pb210_CAR) %>%
+  ggplot() +
+ geom_boxplot(aes(pb210_CAR, ecosystem), outlier.shape = NA) +
+  geom_point(aes(pb210_CAR, ecosystem, col = climate_zone), alpha = 0.5) +
+  theme_bw(base_size = 15) +
+  theme(legend.position="bottom") +
+  xlab("Pb-210 Carbon Accumulation Rate (gC m-2 yr-1)")
+
+```
+
+```{r, echo=FALSE, fig.width=12, fig.height=6}
+reported_all %>% filter(habitat != "mudflat") %>% drop_na(cs137_CAR) %>% 
+  ggplot() +
+  geom_boxplot(aes(cs137_CAR, ecosystem), outlier.shape = NA) +
+  geom_point(aes(cs137_CAR, ecosystem, col = climate_zone), alpha = 0.5) +
+  theme_bw(base_size = 15) +
+  theme(legend.position="bottom") +
+  xlab("Cs-137 Carbon Accumulation Rate (gC m-2 yr-1)")
+
+```
+Outlier is from Bryant_1998 (2017 inventory)
+
+### Management Types
+
+```{r, echo=FALSE, fig.width=12, fig.height=6}
+
+reported_all %>% filter(habitat != "mudflat") %>%
+  drop_na(cs137_CAR, management) %>%
+  ggplot() +
+  geom_boxplot(aes(cs137_CAR, management), outlier.shape = NA) +
+  geom_point(aes(cs137_CAR, management, col = ecosystem), alpha = 0.5) +
+  theme_bw(base_size = 15) +
+  xlab("Cs-137 Carbon Accumulation Rate (gC m-2 yr-1)")
+  # theme(legend.position="bottom")
+
+```
+```{r, echo=FALSE, fig.width=12, fig.height=6}
+reported_all %>% filter(habitat != "mudflat") %>%
+  drop_na(pb210_CAR, management) %>%
+  ggplot() +
+  geom_boxplot(aes(pb210_CAR, management), outlier.shape = NA) +
+  geom_point(aes(pb210_CAR, management, col = ecosystem), alpha = 0.5) +
+  theme_bw(base_size = 15) +
+    xlab("Pb-210 Carbon Accumulation Rate (gC m-2 yr-1)")
+  # theme(legend.position="bottom")
+```
+
+## Inventory Comparison (2017-2022)
+
+**Calculations are for Natural sites only**
+
+```{r, echo=FALSE, message=FALSE}
+# calculate inventory for 2017 for comparison to the updates
+nggi_smry_comparison <- reported_all %>% 
+  filter(management == "natural") %>% 
+  filter(habitat != "mudflat") %>% 
+  filter(inventory_year == "nggi_2017") %>% 
+  # filter(is.na(core_count) | core_count == 1) %>% # until we know how to handle a mean from multiple cores
+  # calculate the geometric mean
+  mutate(NewdelSOC1Pb = ifelse(pb210_CAR_unit != "centimeterPerYear", log10(pb210_CAR/100), NA),
+         NewdelSOC2Cs = ifelse(cs137_CAR_unit != "centimeterPerYear", log10(cs137_CAR/100), NA)) %>% 
+  group_by(ecosystem, climate_zone) %>% 
+  summarize(MNewdelSOC1Pb = mean(NewdelSOC1Pb, na.rm = T),
+            SeNewdelSOC1Pb = se(NewdelSOC1Pb, na.rm = T),
+            SdNewdelSOC1Pb = sd(NewdelSOC1Pb, na.rm = T),
+            MNewdelSOC2Cs = mean(NewdelSOC2Cs, na.rm = T),
+            SeNewdelSOC2Cs = se(NewdelSOC2Cs, na.rm = T),
+            SdNewdelSOC2Cs = sd(NewdelSOC2Cs, na.rm = T),
+            pb210_n = sum(!is.na(NewdelSOC1Pb)),
+            cs137_n = sum(!is.na(NewdelSOC2Cs))) %>% 
+  ungroup() %>% 
+  mutate(MGeodelSOC1Pb = 10^MNewdelSOC1Pb,
+         MGeodelSOC2Cs = 10^MNewdelSOC2Cs,
+         # confidence intervals
+         LowerCIGeodelSOC1Pb = 10^(MNewdelSOC1Pb - (SeNewdelSOC1Pb*1.96)),
+         LowerCIGeodelSOC2Cs = 10^(MNewdelSOC2Cs - (SeNewdelSOC2Cs*1.96)),
+         UpperCIGeodelSOC1Pb = 10^(MNewdelSOC1Pb + (SeNewdelSOC1Pb*1.96)),
+         UpperCIGeodelSOC2Cs = 10^(MNewdelSOC2Cs + (SeNewdelSOC2Cs*1.96)), 
+         inventory_year = "nggi_2017") %>% 
+  bind_rows(nggi_smry %>% mutate(inventory_year = "nggi_2022"))
+```
+
+```{r, echo=FALSE, fig.width=12, fig.height=6}
+pb_change <- nggi_smry_comparison %>% drop_na(MGeodelSOC1Pb) %>% 
+  # mutate(inventory_year = paste0("nggi_", inventory_year)) %>% 
+  pivot_wider(id_cols = c("ecosystem", "climate_zone"), names_from = inventory_year, values_from = MGeodelSOC1Pb) %>% 
+  # remove unchanging values
+  mutate(change = abs(nggi_2022 - nggi_2017)) %>% 
+  filter(change > 0)
+
+nggi_smry_comparison %>% 
+   drop_na(MGeodelSOC1Pb) %>% 
+  ggplot() +
+  geom_point(aes(MGeodelSOC1Pb, ecosystem, col = inventory_year), alpha = 0.5, size = 3) +
+  geom_segment(data = pb_change, aes(y = ecosystem, yend = ecosystem, x = nggi_2017, xend = nggi_2022), 
+               colour = "black", arrow = arrow(length = unit(0.2, "cm"))) +
+  facet_wrap(~climate_zone, nrow = 1) +
+  xlab("Geometric Mean of Pb-210 Carbon Accumulation Rate (gC ha-1 yr-1)") +
+  theme_bw(base_size = 15)
+
+```
+
+```{r, echo=FALSE, message=FALSE, fig.width=12, fig.height=6}
+# nggi_smry_comparison %>% 
+#    drop_na(MGeodelSOC2Cs) %>% 
+#   ggplot() +
+#   geom_point(aes(MGeodelSOC2Cs, ecosystem, col = inventory_year), alpha = 0.5, size = 3) +
+#   facet_wrap(~climate_zone, nrow = 1) +
+#   # geom_errorbar(aes(ymin = LowerCIGeodelSOC1Pb, ymax = UpperCIGeodelSOC1Pb))
+#   theme_bw(base_size = 15)
+
+cs_change <- nggi_smry_comparison %>% drop_na(MGeodelSOC2Cs) %>% 
+  # mutate(inventory_year = paste0("nggi_", inventory_year)) %>% 
+  pivot_wider(id_cols = c("ecosystem", "climate_zone"), names_from = inventory_year, values_from = MGeodelSOC2Cs) %>%
+  # remove unchanging values
+  mutate(change = abs(nggi_2022 - nggi_2017)) %>% 
+  filter(change > 0)
+
+nggi_smry_comparison %>% 
+   drop_na(MGeodelSOC2Cs) %>% 
+  ggplot() +
+  geom_point(aes(MGeodelSOC2Cs, ecosystem, col = inventory_year), alpha = 0.5, size = 3) +
+  geom_segment(data = cs_change, aes(y = ecosystem, yend = ecosystem, x = nggi_2017, xend = nggi_2022), 
+               colour = "black", arrow = arrow(length = unit(0.2, "cm"))) +
+  facet_wrap(~climate_zone, nrow = 1) +
+  xlab("Geometric Mean of Cs-137 Carbon Accumulation Rate (gC ha-1 yr-1)") +
+  theme_bw(base_size = 15)
+
+```
+
+### Dataset Growth
+
+Growth of the NGGI dataset (in number of cores) by habitat type, management status, and climate zone for carbon accumulation rate.
+
+```{r echo=FALSE, message=FALSE, fig.width=12, fig.height=12}
+smry_2017 <- reported_all %>%
+  filter(habitat != "mudflat") %>%
+  filter_at(vars(pb210_CAR, pb210_CAR_unit, cs137_CAR, cs137_CAR_unit), any_vars(!is.na(.))) %>%
+  filter(inventory_year == "nggi_2017") %>% 
+  count(ecosystem, climate_zone, management, name = "core_n_2017") %>% 
+  arrange(ecosystem, climate_zone, management)
+
+smry_2022 <- reported_all %>%
+  filter(habitat != "mudflat") %>%
+  filter_at(vars(pb210_CAR, pb210_CAR_unit, cs137_CAR, cs137_CAR_unit), any_vars(!is.na(.))) %>%
+  count(ecosystem, climate_zone, management, name = "core_n_2022") %>% 
+  arrange(ecosystem, climate_zone, management)
+
+smry_all <- full_join(smry_2017, smry_2022) %>% 
+  mutate(core_n_2017 = ifelse(is.na(core_n_2017), 0, core_n_2017),
+         change = core_n_2022-core_n_2017)
+
+smry_all %>% 
+  select(-change) %>% 
+  pivot_longer(cols = -c(ecosystem, climate_zone, management), names_to = "inventory_year", values_to = "core_count") %>% 
+  ggplot() +
+  geom_point(aes(core_count, ecosystem, col = inventory_year), alpha = 0.5, size = 3) +
+  geom_segment(data = smry_all %>% filter(change > 0), aes(y = ecosystem, yend = ecosystem, x = core_n_2017, xend = core_n_2022), 
+               colour = "black", arrow = arrow(length = unit(0.2, "cm"))) +
+  facet_wrap(climate_zone ~ management, dir = "h") +
+  theme_bw(base_size = 15) +
+  theme(legend.position="bottom")
+
+```
+
+```{r echo=FALSE}
+
+datatable(smry_all %>% 
+            arrange(desc(change)) %>% 
+            rename(`core count (2017)` = core_n_2017,
+                   `core count (2022)` = core_n_2022),
+          options = list(searching = FALSE,
+                         paging = FALSE,
+                         info = FALSE,
+                         scrollY = 300,
+                         scrollCollapse = TRUE),
+          rownames = FALSE)
+
+```
+
